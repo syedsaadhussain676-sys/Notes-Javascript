@@ -221,7 +221,7 @@
 // let pageViews = 100;
 // pageViews++; // Now 101
 
-// javascript
+
 // // Bad (confusing)
 // let x = 5;
 // let y = x++ + ++x; // Hard to read!
