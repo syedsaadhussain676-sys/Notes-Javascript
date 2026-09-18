@@ -171,7 +171,7 @@
 //     const todoTextElem = document.createElement("h3");
 //     todoTextElem.innerText = "Todo: " + element?.todo;
 
-//     const hr = document.createElement("hr")
+//     const hr = document.createElement("hr");
 
 //     const containerDiv = document.createElement("div");
 //     containerDiv.insertAdjacentElement("beforeend", idElem);
@@ -205,7 +205,7 @@
 //   button.innerText = "Get New Image";
 
 //   img.setAttribute("src", data?.message);
-//   img.style.width = "200px";
+//   img.style.width = "300px";
 // }
 
 // let counter = 0;
@@ -306,3 +306,35 @@
 // }
 
 // getData();
+
+// CROX>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>----
+
+// const comment = {
+//     id: 1,
+//     body: "This is some awesome thinking!",
+//     postId: 242,
+//     likes: 3,
+//     user: {
+//         id: 105,
+//         username: "emmac",
+//         fullName: "Emma Wilson"
+//     }
+// };
+
+// // Multiple variables
+// const commentId = comment.id;
+// const body = comment.body;
+// const postId = comment.postId;
+// const likes = comment.likes;
+
+// const userId = comment.user.id;
+// const username = comment.user.username;
+// const fullName = comment.user.fullName;
+
+// console.log(commentId);
+// console.log(body);
+// console.log(postId);
+// console.log(likes);
+// console.log(userId);
+// console.log(username);
+// console.log(fullName);
